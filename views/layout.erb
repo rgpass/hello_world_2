@@ -1,11 +1,15 @@
 <head>
   <title>Gerry Pass | <%= @title %></title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="/css/custom.css">
-  <script src="/js/random.js"></script>
 </head>
 <body>
   <%= erb :_navigation %>
   <h1>Welcome! (header)</h1>
   <%= yield %>
   <h1>See ya! (footer)</h1>
+
+  <script src="/js/random.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
